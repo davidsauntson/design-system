@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'webrick'
+gem 'nanoc'
+gem 'adsf'
+
+gem "citizens_advice_components",
+    github: "citizensadvice/design-system",
+    tag: "v4.1.0",
+    glob: "engine/*.gemspec"
